@@ -1,0 +1,337 @@
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.first-container {
+    background-color: #1f2937;
+    height: 78vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-bar {
+    /*border: 5px goldenrod solid;*/
+    display: flex;
+    flex-wrap: wrap;
+}
+/**/
+
+.logo-holder {
+    /*border: 5px darkred solid;*/
+    margin-left: 6rem;
+    flex: 1;
+}
+
+.seperate-nav-elements {
+    /*border: 5px purple solid;*/
+    flex: 2;
+}
+
+.nav-links {
+    display: flex;
+    /*border: 5px darkgreen solid;*/
+    gap: 50px;
+    margin-right: 6rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link {
+    list-style: none;
+    flex: none;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: rgb(25, 201, 255);
+    font-size: 1.9rem;
+}
+
+
+.nav-link a:hover {
+    color: white;
+}
+
+/*-----------------First Container - Second Section-------------------------*/
+
+.first-container-second-section {
+    /*border: 5px darkgreen solid;*/
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+.sec-section-left-part {
+    display: flex;
+    flex-direction: column;
+    /*border: 5px goldenrod solid;*/
+    padding-left: 8rem;
+    flex: 2;
+}
+
+.sec-section-left-part h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+#cold {
+    color: rgb(25, 201, 255);
+    font-size: 3.2rem;
+}
+
+#hot {
+    color: #cf1020;
+    font-size: 3.2rem;
+}
+
+.sec-section-left-part p {
+    font-size: 1.3rem;
+    color: #e5e7eb;
+    padding-bottom: 2rem;
+}
+
+.sec-section-left-part button {
+    background-color: rgb(25, 201, 255);
+    font-weight: bold;
+    color: white;
+    align-self: flex-start;
+    height: 4rem;
+    width: 7rem;
+    border-radius: 1.5rem;
+    font-size: larger;
+    border-color: rgb(25, 201, 255);
+}
+
+.sec-section-left-part button:hover {
+    background-color: white;
+    color: rgb(25, 201, 255);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sec-section-middle-part {
+    /*border: 5px grey solid;*/
+    flex: 1;
+}
+
+.sec-section-right-part {
+    /*border: 5px darkred solid;*/
+    padding-right: 5.5rem;
+}
+
+.sec-section-right-part img {
+    border: 8px rgb(25, 201, 255) solid;
+}
+
+.sec-section-right-part img:hover {
+    border: 8px #cf1020 solid;
+}
+
+
+/*--------------------Second-Container----------------------------*/
+
+.second-container {
+    /*border: 8px goldenrod solid;*/
+    background-color: white;  
+    height: 55vh; 
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5rem;
+    align-items: center;
+}
+
+.second-container-heading {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #1f2937;
+    align-self: center;
+    margin-top: 2.5rem;
+}
+
+.img-logo-span-containers {
+    /*border: 8px #cf1020 solid;*/
+    display: flex;
+    align-self: center;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.img-logo-span-container {
+    /*border: 8px blue solid;*/
+    padding: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.img-logo img {
+    border: 8px rgb(25, 201, 255) solid;
+    border-radius: 15px;
+    padding: 2rem;
+    align-self: center;
+}
+
+.span-container span {
+    height: auto;
+    font-size: 1.5em;
+}
+
+/*--------------------Third-Container----------------------------*/
+
+.third-container {
+    /*border: 8px blue solid;*/
+    background-color: #e5e7eb;
+    height: 34vh;
+    display: flex;
+    justify-content: center;
+}
+
+.span-containers {
+    /*border: 8px goldenrod solid;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    gap: 1rem;
+}
+
+.quote-container {
+    /*border: 8px red solid;*/
+    display: flex;
+    align-items: center;
+}
+
+.socrates-container {
+    /*border: 8px black solid;*/
+    align-self: flex-end;
+}
+
+.quote-container span {
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 4em;
+    color: #1f2937;
+}
+
+.socrates-container span {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+/*--------------------Fourth-Container----------------------------*/
+
+.fourth-container {
+    /*border: 5px black solid;*/
+    background-color: white;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-blue-background {
+    /*border: 5px blue solid;*/
+    background-color: rgb(25, 201, 255);
+    border-radius: 10px;
+    align-self: center;
+    padding: 4rem;
+    display: flex;
+    gap: 7rem;
+}
+
+.footer-span-container {
+    /*border: 5px red solid;*/
+}
+
+.footer-first-span {
+    /*border: 5px black solid;*/
+}
+
+.footer-first-span span {
+    font-size: 3em;
+    color: white;
+}
+
+.footer-second-span {
+    /*border: 5px purple solid;*/
+}
+
+.footer-second-span span {
+    font-size: 1.5em;
+    color: white;
+}
+
+.footer-button {
+   /* border: 5px darkgreen solid;*/
+   margin-top: 2rem;
+}
+
+.footer-button button {
+    background-color: rgb(25, 201, 255);
+    font-weight: bold;
+    color: white;
+    height: 4rem;
+    width: 7rem;
+    border: 8px white solid;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    /*border-color: rgb(25, 201, 255);*/
+}
+
+
+.footer-button button:hover {
+    background-color: white;
+    color: rgb(25, 201, 255);
+    border: 8px rgb(25, 201, 255) solid;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/*--------------------Fifth-Container----------------------------*/
+.fifth-container {
+    background-color: #1f2937;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.final-span-container span {
+    font-size: 1.3rem;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
